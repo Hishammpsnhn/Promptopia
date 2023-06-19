@@ -13,6 +13,7 @@ export const connectToDB = async () => {
                 useNewUrlParser: true,
                 // useUnifieldTopology: true,
             });
+            console.log("DB connected");
         } catch (error) {
             console.log(error);
         }
