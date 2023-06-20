@@ -24,8 +24,6 @@ const page = ({params}) => {
       name={name}
       desc={`Welcome to ${name} personalized profile page`}
       data={posts}
-      //   handleEdit={handleEdit}
-      //   handleDelete={handleDelete}
     />
   )
 }
